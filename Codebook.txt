@@ -1,0 +1,21 @@
+This dataset contains means of means and standard deviations from multiple measures by subject("ID") and activities measured("activity")
+
+Variables and descriptions
+============================
+ID: Subject ID
+activity: Activity measured. Each participant should have six activities measured. They are: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+
+All other variables are means of components of measures from accelerometer and gyroscope. The naming rule follows:
+t: Denotes time
+f: Denotes frequency domain signals
+Acc: Indicates measures from accelerometer
+Gyro: Indicates measures from gyroscope
+X/Y/Y:  Indicates the axis measured
+Jerk: Denotes Jerk signals
+Mag: Denotes magnitude of signals
+angle: Denotes angle between two vector
+
+Examples of variable naming rule
+===================================
+1. "tBodyAcc.mean.X": mean for the measure of time on body accelerometer on x axis
+2. "fBodyGyro.std.Y": means for the standard deviations of measures of frequency on body gyroscope on y axis
